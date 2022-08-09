@@ -3,6 +3,25 @@ body{
     padding: 0px;
     background-color: rgb(241, 233, 222);
 }
+#contact{
+    text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+#contact input{
+    margin: 5px;
+    padding: 5px;
+   
+}
+input{
+    width: 400px;
+}
+.length{
+    font-size: 20px;
+    color: rgb(12, 4, 4);
+    background: rgb(201, 201, 195);
+}
+
 .header{
    
     height: 40px;
@@ -267,7 +286,9 @@ h3{
         }
 }
 @media  screen and (max-width:800px) {
-   
+   #contact{
+    display: none;
+   }
  .main{
       display: flex;
       flex-direction: column;
