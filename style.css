@@ -286,9 +286,13 @@ h3{
         }
 }
 @media  screen and (max-width:800px) {
-   #contact{
-    display: none;
-   }
+    input{
+        width: 200px;
+    }
+    #area{
+        width: 200px;
+        height: 100px;
+    }
  .main{
       display: flex;
       flex-direction: column;
@@ -384,6 +388,12 @@ h3{
   .pro div{
     margin-left: 20%;
   }
+  input{
+    width: 200px;
+}
+#contact{
+    margin-left: 10%;
+}
    }
    @media screen and (max-width:370px){
     .pro div{
